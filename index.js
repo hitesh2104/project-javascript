@@ -2,11 +2,11 @@ const logDiv = document.getElementById("log");
 const stateDiv = document.getElementById("state");
 const startBtn = document.getElementById("start-bnb");
 const stopBtn = document.getElementById("stop-bnb");
-startBtn.addEventListener("click"()=>{
+startBtn.addEventListener("click",()=>{
   document.addEventListener("keydown",handleDown);
   document.addEventlistener("keyup",handleUP);
 })
-stopBtn.addEventListener("click"()=>{
+stopBtn.addEventListener("click",()=>{
     document.addEventListener("keydown",handleDown);
   document.addEventlistener("keyup",handleUP);
   logDiv.textContent="";
