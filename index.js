@@ -1,7 +1,7 @@
 const logDiv = document.getElementById("log");
 const stateDiv = document.getElementById("state");
-const startBtn = document.getElementById("start-btn");
-const stopBtn = document.getElementById("stop-btn");
+const startBtn = document.getElementById("start-bnb");
+const stopBtn = document.getElementById("stop-bnb");
 startBtn.addEventListener("click"()=>{
   document.addEventListener("keydown",handleDown);
   document.addEventlistener("keyup",handleUP);
