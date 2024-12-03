@@ -3,12 +3,12 @@ const stateDiv = document.getElementById("state");
 const startBtn = document.getElementById("start-bnb");
 const stopBtn = document.getElementById("stop-bnb");
 startBtn.addEventListener("click",()=>{
-  document.addEventListener("keydown",handleDown);
-  document.addEventlistener("keyup",handleUP);
+  document.addEventListener("keydown",handlerDown);
+  document.addEventlistener("keyup",handlerUp);
 })
 stopBtn.addEventListener("click",()=>{
-    document.addEventListener("keydown",handleDown);
-  document.addEventlistener("keyup",handleUP);
+    document.addEventListener("keydown",handlerDown);
+  document.addEventlistener("keyup",handlerUp);
   logDiv.textContent="";
   stateDiv.textContent=" ";
 })
