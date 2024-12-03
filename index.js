@@ -4,11 +4,11 @@ const startBtn = document.getElementById("start-bnb");
 const stopBtn = document.getElementById("stop-bnb");
 startBtn.addEventListener("click",()=>{
   document.addEventListener("keydown",handlerDown);
-  document.addEventlistener("keyup",handlerUp);
+  document.addEventListener("keyup",handlerUp);
 })
 stopBtn.addEventListener("click",()=>{
     document.addEventListener("keydown",handlerDown);
-  document.addEventlistener("keyup",handlerUp);
+  document.addEventListener("keyup",handlerUp);
   logDiv.textContent="";
   stateDiv.textContent=" ";
 })
