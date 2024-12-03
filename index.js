@@ -13,10 +13,10 @@ stopBtn.addEventListener("click",()=>{
   stateDiv.textContent=" ";
 })
 function handlerDown(e){
-logDiv.textContent="Key ${e.key} press down";
+logDiv.textContent=`Key ${e.key} press down`;
   stateDiv.textContent="kwy is down";
 }
 function handlerUp(e){
-logDiv.textContent="Key ${e.key} press Up";
+logDiv.textContent=`Key ${e.key} press Up`;
   stateDiv.textContent="kwy is UP";
 }
